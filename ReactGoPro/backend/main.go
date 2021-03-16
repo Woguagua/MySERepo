@@ -17,7 +17,7 @@ var upgrader = websocket.Upgrader{
 }
 
 //Define a Reader to listen to new messages sent to WS
-func reader(conn *websocket.com) {
+func reader(conn *websocket.Conn) {
 	for {
 		//Read messages
 		messageType, p, err := conn.ReadMessage()
