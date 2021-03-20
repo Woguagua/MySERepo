@@ -1,4 +1,4 @@
-module github.com/TutorialEdge/realtime-chat-go-react
+module react-go-pro
 
 go 1.14
 
